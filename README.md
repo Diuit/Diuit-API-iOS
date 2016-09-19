@@ -16,7 +16,7 @@
 2. Download this repo
 3. Choose the framework based on your configuration of bitcode. (You may fail to upload onto App store due to inconsistent configuration)
    ![bitcode](http://i.imgur.com/jyMQWbl.png)
-4. Drag both **DUMessaging.framework** and **SocketIO.framework** to your project navigator in Xcode. Make sure that "Copy items if needed" is checked when Xcode ask you about the options for adding files.
+4. Drag both **DUMessaging.framework** and **SocketIO.framework** to your project navigator in Xcode. Make sure that "Copy items if needed" is checked when Xcode asks you about the options for adding files.
    ![copyfiles](http://i.imgur.com/zlgLeWG.png)
 5. Now you should see both frameworks in your project navigator.
    ![projectNavigator](http://i.imgur.com/Kpnqdy6.png)
@@ -28,6 +28,7 @@
 
 ## You May Want to Know
 
-1. SocketIO forgets to close detail log in this version. However this is the stable version to work with Swift 2.3 and they may not maintain this version anymore. You probably need to add some tag or identifier for your log.
-2. Even though Swift 3 is officially released, Diuit API will still maintain versions for Swift 2.3( v. 1.2.0 +). Since pod file spec does not support depedency of a specific branch, we have to distribute the framework by this method. Thus, you can ONLY install Diuit API for Swift 2.3 **manually**.
+1. SocketIO forgets to close detail log in this version. However this is the stable version to work with Swift 2.3 and they may not maintain this version anymore. You probably need to add some tags or identifier for your log.
+2. Even though Swift 3 is officially released, Diuit API will still maintain versions for Swift 2.3( v. 1.2.0 +). Since pod file spec does not support dependency of a specific branch, we have to distribute the framework by this method. Thus, you can ONLY install Diuit API for Swift 2.3 **manually**.
 3. Diuit API for Swift 3 (v. 2.0+) can be installed via Cocoapods or manually, stay tuned.
+
